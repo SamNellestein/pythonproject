@@ -4,10 +4,10 @@ from typing import List, Optional
 def toon_menu() -> str:
 	print("\nKeuzemenu:")
 	print("1. Namen naar hoofdletters")
-	print("5. Namen naar kleine letters")
-	print("2. Nieuwe persoon toevoegen")
-	print("3. Personen verwijderen")
-	print("4. Overzicht van alle personen")
+	print("2. Namen naar kleine letters")
+	print("3. Nieuwe persoon toevoegen")
+	print("4. Personen verwijderen")
+	print("5. Overzicht van alle personen")
 	print("0. Programma stoppen")
 	return input("\nMaak jouw keuze (0-5): ").strip()
 
